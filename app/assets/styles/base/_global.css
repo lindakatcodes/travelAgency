@@ -7,3 +7,12 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+    /* browser won't add padding to total width if used with box-sizing */
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: $mainOrange;
+}
